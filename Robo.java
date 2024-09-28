@@ -1,6 +1,10 @@
 public class Robo {
     int id;
 
+    public Robo(int id){
+        this.id = id;
+    }
+
     public int getId() {
         return id;
     }

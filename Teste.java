@@ -1,10 +1,7 @@
 public class Teste {
-    int id;
-
-    public int getId() {
-        return id;
-    }
-    public void setId(int id) {
-        this.id = id;
+    public static void main(String[] args) {
+        Robo robo = new Robo(12);
+        Robo robo2 = new Robo(12);
+        System.out.println(robo.equals(robo2));
     }
 }
